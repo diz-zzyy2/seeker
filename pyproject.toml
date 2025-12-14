@@ -6,12 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "webtypy>=0.1.7",
-    "python3",
-    "python-requests",
-    "python-pip",
-    "python-packaging",
-    "python psutil",
-    "php"
+    "requests",
+    "packaging",
+    "psutil",
 ]
 
 [dependency-groups]

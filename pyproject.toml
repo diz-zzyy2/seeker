@@ -1,0 +1,21 @@
+[project]
+name = "seeker"
+version = "0.1.0"
+description = "Python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "webtypy>=0.1.7",
+    "python3",
+    "python-requests",
+    "python-pip",
+    "python-packaging",
+    "python psutil",
+    "php"
+]
+
+[dependency-groups]
+dev = [
+    "workers-py",
+    "workers-runtime-sdk"
+]

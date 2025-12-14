@@ -500,7 +500,7 @@ def cl_quit():
 
 
 try:
-    banner()
+    # banner()
     clear()
     SITE = template_select(SITE)
     server()

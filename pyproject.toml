@@ -5,7 +5,10 @@ description = "Python"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "webtypy>=0.1.7",
+    "webtypy>=0.1.7"
+]
+
+py_modules = [
     "requests",
     "packaging",
     "psutil",
